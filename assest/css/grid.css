@@ -1,0 +1,24 @@
+.grid {
+    width: 1400px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col {
+    padding: 0px 15px;
+    margin: 20px 0px 30px;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
